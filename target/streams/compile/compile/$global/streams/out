@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/aotn/scala/study/src/main/scala/Fruit.scala:9:26: class java.lang.IllegalArgumentException is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m    if (xs == Nil) throw IllegalArgumentException[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
