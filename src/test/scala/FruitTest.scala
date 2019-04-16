@@ -4,7 +4,9 @@ class FruitTest extends FunSuite {
 
   test("add to list") {
     val f = new Fruit()
-    f.append("manzana")
+    val m: List[String] = f.append("manzana")
+    print(m)
+    print(f)
     assert(f.get(0) == "manzana")
   }
 
