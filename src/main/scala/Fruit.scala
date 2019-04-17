@@ -16,10 +16,12 @@ class Fruit  {
     else if(list(xs) eq null) throw new NullPointerException("No element in this position")
     else list(xs)
 
-  def append[T](xs: List[T], ys: List[T]): List[T] = xs match {
+  def union[T](xs: List[T], ys: List[T]): List[T] = xs match {
     case List() => ys
-    case x :: xs1 => x :: append(xs1, ys)
+    case x :: xs1 => x :: union(xs1, ys)
   }
+
+
   def addBegin(x: String, xs: List[String]): List[String] =
     if (x eq null) throw new NullPointerException("give'me a real value")
     else if (xs eq null) x :: List()

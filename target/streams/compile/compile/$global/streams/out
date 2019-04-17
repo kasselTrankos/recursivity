@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/aotn/scala/study/src/main/scala/Fruit.scala:22:33: not found: value insert[0m
-[0m[[0m[31merror[0m] [0m[0m                      else y :: insert(s, ys)[0m
-[0m[[0m[31merror[0m] [0m[0m                                ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
