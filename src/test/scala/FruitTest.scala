@@ -14,7 +14,7 @@ class FruitTest extends FunSuite {
     var o:List[String] = List("uno", "dos", "tres")
     var t = f.union(List("perro", "gato", "animal"), o)
 
-    
+
     assert(t.length == 6)
   }
 
