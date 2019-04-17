@@ -4,10 +4,13 @@ class FruitTest extends FunSuite {
 
   test("add to list") {
     val f = new Fruit()
-    val m: List[String] = f.append("manzana")
-    print(m)
-    print(f)
-    assert(f.get(0) == "manzana")
+    var o:List[String] = List("uno", "dos", "tres")
+    val l:List[String] = List("gato") ++ o.map(x=>x)
+    //print(s"The list is : ($l)")
+    var t = f.addBegin("perro", l)
+    //print(s"The list is : ($t)")
+
+    assert(t(0) == "perro")
   }
 
 }
